@@ -1,0 +1,21 @@
+spring:
+################### start
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+#        show_sql: true
+        format_sql: true
+
+############### end
+#  스프링 부트 사용시 # end부터 start까지 생략해도 알아서 In Memory h2 DB에서 실행해준다
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
