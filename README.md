@@ -1,6 +1,6 @@
 # SpringBoot_WebApplication
 
-# 스프링 부트와 JPA를 이용한 웹 어플리케이션 구현하기
+# 스프링 부트와 JPA를 이용한 쇼핑웹 어플리케이션 구현하기
 
 ----
 + < Dependencies >      
