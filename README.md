@@ -14,5 +14,7 @@
 ----
  + < Basic Setting >
     + Setting -> Annotation Processor -> CHECK Enable annotation processing
-    
+-------
+
+API 연동은 PostMan 활용 
     
