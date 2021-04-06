@@ -16,5 +16,9 @@
     + Setting -> Annotation Processor -> CHECK Enable annotation processing
 -------
 
-API 연동은 PostMan 활용 
-    
+API 연동은 PostMan 활용
+
+-----
+< Annotation >
+
++ @JsonIgnore : json 객체 넘길때 내부 정보 노출 하지 않기 위해 엔티티에서 설정
